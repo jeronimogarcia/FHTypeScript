@@ -9,7 +9,7 @@ const contar = (heroes) => {
 const superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
 contar(superHeroes);
 //Parametros por defecto
-const llamarBatman = (llamar) => {
+const llamarBatman = (llamar = true) => {
     if (llamar) {
         console.log("Batiseñal activada");
     }
